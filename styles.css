@@ -1,0 +1,284 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.footer {
+  display: block;
+  background-color: #fafafa;
+}
+
+/* logo and search bar */
+
+.logo {
+  display: inline;
+}
+
+.logo img {
+  margin: 20 10;
+  margin-right: 20;
+}
+
+.search {
+  position: absolute;
+  display: inline;
+  margin-top: 19;
+  width: 631;
+  height: 43;
+}
+
+.search input {
+  position: relative;
+  width: 631;
+  height: 43;
+  font-size: 16;
+  color: #222;
+  font-family: arial,sans-serif;
+  padding-left: 15;
+  border-style: none;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+  background: #fff;
+  border-radius: 2px;
+}
+
+/* search bar icons */
+
+.mic {
+  position: absolute;
+  left: 560;
+  bottom: 10;
+}
+
+.lens {
+  position: absolute;
+  left: 590;
+  bottom: 6;
+}
+
+.mic:hover, .lens:hover, .dots:hover, .notif:hover, .user:hover, .tabs li {
+  cursor: pointer;
+}
+
+/* top right side icons */
+
+.dots {
+  position: absolute;
+  left: 1570;
+  top: 38;
+}
+
+.notif {
+  position: absolute;
+  left: 1610;
+  top: 33;
+}
+
+.user {
+  height: 34; width: 34;
+  position: absolute;
+  left: 1660;
+  top: 34;
+  border-radius: 25px;
+}
+
+
+/* footer tabs, under the search bar */
+
+.tabs ul {
+  list-style-type: none;
+  padding: 0 145;
+  font-family: arial, sans-serif;
+  font-size: small;
+  border-bottom: 1px solid #ebebeb;
+  padding-bottom: 13;
+  color: #666;
+}
+
+.tabs li {
+  display: inline;
+  padding: 0 12;
+  padding-bottom: 12;
+}
+
+.tabs_right {
+  margin-left: 200;
+}
+
+.active {
+  color: #1A73E8;
+  border-bottom: 3px solid #1A73E8;
+  font-weight: bold;
+}
+
+/* main section */
+
+/* first section */
+
+.main {
+  margin-left: 160;
+  font-family: arial, sans-serif;
+  width: 631;
+}
+
+.results {
+  color: #808080;
+  font-size: small;
+  padding-bottom: 10;
+}
+
+
+.right {
+  left: 500;
+  position: absolute;
+  width: 200;
+  padding-top: 10;
+}
+
+.left {
+  position: absolute;
+  width: 200;
+  padding-left: 28;
+  padding-top: 10;
+}
+
+.title {
+  margin: 0 auto;
+  color: #1a0dab;
+  font-size: 18px;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+.title:hover {
+  text-decoration: underline;
+}
+
+.ad {
+  margin: 0 auto;
+  color: rgb(0, 102, 33);
+  font-size: 14px;
+}
+
+span {
+  border: 1px solid #006621;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  padding: 0.1em;
+  font-size: 11px;
+}
+
+.content {
+  margin: 0 auto;
+  color: rgb(84, 84, 84);
+  font-size: 13px;
+  line-height: 18px;
+}
+
+
+/* second section */
+
+.sec_2 {
+  margin-top: 110;
+  border-style: none;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+  padding: 1 15;
+  position: relative;
+  padding-bottom: 20;
+  margin-left: -3;
+}
+
+.title_2 {
+  color: rgb(34, 34, 34);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.2px;
+  text-align: left;
+  text-transform: uppercase;
+  display: block;
+  width: 370;
+  margin-right: 0;
+}
+
+.sec_2 img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+
+ol {
+  padding-left: 18;
+  line-height: 18px;
+}
+
+.sec_2 li {
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+.sec_2 .results {
+  margin-left: 20;
+  cursor:pointer;
+}
+
+.sec_2 .results:hover {
+  text-decoration: underline;
+}
+
+.feedback {
+  margin-left: 600;
+  margin-top: 10;
+}
+
+.feedback p {
+  display: inline;
+  color: #777;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: arial, sans-serif;
+  margin-left: 20;
+}
+
+
+/* feedback and last lines */
+
+.feedback p:hover {
+    text-decoration: underline;
+}
+
+.feedback img {
+  position: absolute;
+  cursor: pointer;
+}
+
+.last {
+  margin-top: 30;
+  margin-left: 170;
+  font-family: arial, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #808080;
+  border-style: none;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+  width: 620;
+  padding: 10 15;
+  margin-bottom: 0;
+}
+
+.last_2 {
+  margin-top: 0;
+  margin-left: 170;
+  font-family: arial, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #222;
+  border-style: none;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+  width: 620;
+  padding: 10 15;
+  border-top: none;
+  cursor: pointer;
+}
